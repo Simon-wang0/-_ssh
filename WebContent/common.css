@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#top {
+	position: relative;
+	border-bottom: 1px solid gray;
+	text-align: center;
+	height: 10%;
+	font-size: 40px;
+}
+
+#menu {
+	text-align: center;
+	height: 80%;
+	width: 20%;
+	float: left;
+	border-right: 1px solid gray;
+	overflow: hidden;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu a {
+	text-decoration: none;
+}
+
+#main {
+	height: 80%;
+	width: 80%;
+	padding: 5px;
+	position: relative;
+	overflow: hide;
+}
+
+#bottom {
+	position: relative;
+	border-top: 1px solid gray;
+	text-align: center;
+}
+
+.message {
+	color: blue;
+}
+
+.errors {
+	color: red;
+}
+
+.message ul,.errors ul {
+	list-style: none;
+}
+
+.products-list {
+	width: 200px;
+	height: 200px;
+	float: left;
+	border: 1px solid blue;
+	margin: 5px;
+}
